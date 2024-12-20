@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/goran/Desktop/F2023/COE758/Labs/Tutorial1/Tutorial1/Tutorial1.xst" -ofn "C:/Users/goran/Desktop/F2023/COE758/Labs/Tutorial1/Tutorial1/Tutorial1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Tutorial1.ngc Tutorial1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Tutorial1_map.ncd Tutorial1.ngd Tutorial1.pcf 
+par -w -intstyle ise -ol high -t 1 Tutorial1_map.ncd Tutorial1.ncd Tutorial1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Tutorial1.twx Tutorial1.ncd -o Tutorial1.twr Tutorial1.pcf 
+bitgen -intstyle ise -f Tutorial1.ut Tutorial1.ncd 

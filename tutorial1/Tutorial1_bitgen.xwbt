@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\goran\Desktop\F2023\COE758\Labs\Tutorial1\Tutorial1\Tutorial1.ncd
+OUTFILE=C:\Users\goran\Desktop\F2023\COE758\Labs\Tutorial1\Tutorial1\Tutorial1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\goran\Desktop\F2023\COE758\Labs\Tutorial1\Tutorial1
+LICENSE=WebPack
+USER_INFO=212828212_0_0_936

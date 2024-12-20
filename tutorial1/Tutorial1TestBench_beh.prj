@@ -1,0 +1,2 @@
+vhdl work "Tutorial1.vhd"
+vhdl work "Tutorial1TestBench.vhd"
